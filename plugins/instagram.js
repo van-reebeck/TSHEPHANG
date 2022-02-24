@@ -91,7 +91,7 @@ Asena.addCommand({ pattern: 'profinsta ?(.*)', fromMe: false, usage: Lang.USAGE,
         async (err) => await message.sendMessage(errorMessage(Lang.NOT_FOUND + userName)),
       )
   },
-.
+
  )
 }
    
